@@ -1,0 +1,30 @@
+.flex{
+    gap: 1em;
+}
+.boxes{
+    color: #8863fb;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.boxes:hover{
+    background-color: #8863fb;
+    color: #ffffff;
+}
+.variety{
+    font-size: 1vmax;
+    margin: 1.5vmax;
+}
+.filter{
+    background-color: #f6f3f9;
+    padding: 10px; 
+    text-align: center; 
+    font-size: 1vw; 
+    font-weight: bold;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.filterCheck{
+    font-size: 1vw;
+}

@@ -1,0 +1,336 @@
+
+.cartmainDiv{
+    /* border:1px solid red; */
+    width: 90%;
+    min-height: 40rem;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(249,249,250);
+}
+.cartdiv1{
+    /* border:1px solid red; */
+    width: 61%;
+ 
+}
+.cartdiv2{
+    border-left:1px solid rgb(231, 228, 228);
+    width: 36%;
+    
+}
+.pointDiv{
+    border:1px solid rgb(231, 228, 228);
+    width: 100%;
+    min-height: 6rem;
+    margin: 1rem auto;
+    padding: 0.3rem 2rem;
+    border-left: 0.3rem solid rgb(136,99,251) ;
+    border-radius: 0.4rem;
+  
+
+}
+.P13{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(136,99,251);
+}
+.P14{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.know{
+    color:rgb(221, 65, 241);
+   
+}
+.P15{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.singleCart{
+    border:1px solid rgb(220, 216, 216);
+    width: 100%;
+    min-height: 14rem;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.4rem;
+  
+}
+.singleCart1{
+    border:1px solid rgb(220, 216, 216);
+    width: 18%;
+    min-height: 12rem;
+    border-radius: 0.1rem;
+}
+.singleCart2{
+    /* border:1px solid red; */
+    width: 45%;
+    min-height: 12rem;
+    padding: 0 1rem;
+}
+.singleCart3{
+    /* border:1px solid red; */
+    width: 32%;
+    min-height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap:0.7rem;
+    padding: 0.7rem 0;
+}
+.P16{
+    font-size: 1.1rem;
+    font-weight: 350;
+}
+.P17{
+    margin-top: 0.7rem;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.select{
+   outline: none;
+}
+.P18{
+    margin-top: 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(136,99,251);
+    padding-bottom: 0.4rem;
+}
+.span1{
+    font-weight: 600;
+    padding: 0.1rem;
+}
+.span2{
+    font-weight: 600;
+    padding: 0.1rem;
+    text-decoration: line-through;
+    color:rgb(169, 167, 167);
+}
+.span3{
+    font-weight: 600;
+    padding: 0.1rem;
+    color:rgb(241, 71, 71);
+   
+}
+
+.removeBtn{
+    border:1px solid gray ;
+    min-height: 2.3rem;
+    min-width: 100%;
+    color: gray;
+    border-radius: 0.4rem;
+}
+.wishListBtn{
+    border:1px solid rgb(136,99,251) ;
+    min-height: 2.3rem;
+    min-width: 100%;
+    border-radius: 0.4rem;
+}
+
+
+/* <--------------------------------------right part------------------------------------------------------> */
+
+
+
+.coupondiv{
+   border:1px solid red;
+   min-height:3.4rem ;
+   width:87%;
+   margin: 1.1rem auto;
+   display: flex;
+   align-items: center;
+   background-color: rgb(246,239,246);
+   border:1px solid rgb(220, 216, 216);
+   border-radius: 0.3rem;
+}
+.P19{
+    display: flex;
+}
+.percentIcon{
+    font-size: 2rem;
+    margin: auto 1rem;
+    border-radius: 50%;
+    color:white;
+    background-image: linear-gradient(90deg,rgb(220,87,229),rgb(138,98,250));
+}
+.available{
+   color:rgb(220,87,229);
+   font-size: 0.9rem;  
+   margin: 0.1rem 0.5rem ;
+}
+
+.coupondiv2{
+    border:1px solid red;
+    min-height:3.4rem ;
+    width:87%;
+    margin: 1.7rem auto;
+    display: flex;
+    align-items: center;
+    border:1px solid rgb(220, 216, 216);
+    border-radius: 0.3rem;
+    
+ }
+ .P19{
+     display: flex;
+ }
+ .percentIcon2{
+     font-size: 1.5rem;
+     margin: auto 1rem;
+ }
+ .available2{
+    font-size: 0.95rem;  
+    margin: 0.1rem 0.5rem ;
+ }
+
+ .P20{
+    margin: 1.7rem 2rem;
+    font-weight: 500; 
+ }
+
+
+
+ .orderdiv{
+    border:1px solid rgb(220, 216, 216);
+    width:87%;
+    margin: 1.7rem auto;
+    border-radius: 0.3rem;
+    padding: 0.6rem 0;
+    background-color: white;
+ }
+ .orderdiv1{
+    /* border:1px solid red; */
+    min-height: 20% ;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.35rem 1rem;
+ }
+
+ .orderInsideDiv1{
+    color:rgb(78, 74, 74);
+ }
+ .orderInsideDiv2{
+    color:rgb(136,99,251);
+  }
+ .orderInsideDiv3{
+   color:rgb(221, 65, 241);
+ }
+ .orderInsideDiv5{
+    font-weight: 600;
+  }
+ 
+  .checkout{
+    /* border: 1px solid red; */
+    min-height: 3rem;
+    width: 87%;
+    margin:auto 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg,rgb(220,87,229),rgb(138,98,250));
+    color: white;
+    font-weight: 600;
+    border-radius: 0.4rem;
+  }
+  .lockIcon2{
+    margin: 0 0.6rem;
+    color:white;
+  }
+
+  .cartfooter{
+    min-height: 6rem;
+    width: 100%;
+    background-color: rgb(246,239,246);
+    display: flex;
+    align-items: center;
+  }
+  .P26{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(86, 83, 83);
+    padding-left: 1rem;
+  }
+
+
+
+
+
+
+  @media all and (max-width:1000px){
+    
+    .cartmainDiv{
+        flex-direction: column;
+    }
+    .cartdiv1{
+        width: 100%;
+    }
+    .cartdiv2{
+        width: 100%;
+        
+    }
+    .span1{
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+    .span2{
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+    .span3{
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+    .P18{
+        margin-top: 2rem;
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+    .P13{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .P14{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    .P16{
+        font-size: 0.8rem;
+        font-weight: 350;
+    }
+    .removeBtn{
+       font-size: 1rem;
+    }
+    .wishListBtn{
+       font-size: 0.9rem;
+    }
+
+
+  }
+
+
+  @media all and (max-width:500px){
+
+    .removeBtn{
+        font-size: 0.8rem;
+     }
+     .wishListBtn{
+        font-size: 0.7rem;
+     }
+     .orderdiv{
+        width:100%;
+     }
+     .orderInsideDiv3{
+        font-size: 0.9rem;
+     }
+     .orderInsideDiv4{
+        font-size: 0.6rem;
+     }
+
+  }
